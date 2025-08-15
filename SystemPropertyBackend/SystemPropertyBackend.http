@@ -1,0 +1,6 @@
+@SystemPropertyBackend_HostAddress = http://localhost:5037
+
+GET {{SystemPropertyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
