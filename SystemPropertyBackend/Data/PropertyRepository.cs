@@ -11,9 +11,9 @@ namespace SystemPropertyBackend.Data
 
     public class PropertyRepository
     {
-        private readonly MongoContext _ctx;
+        private readonly IMongoContext _ctx;
 
-        public PropertyRepository(MongoContext ctx) => _ctx = ctx;
+        public PropertyRepository(IMongoContext ctx) => _ctx = ctx;
 
         public async Task<List<PropertyDto>> GetFilteredAsync(
             string? name, string? address, decimal? minPrice, decimal? maxPrice)
@@ -36,7 +36,13 @@ namespace SystemPropertyBackend.Data
             if (filters.Count > 0)
                 filter = Builders<Property>.Filter.And(filters);
 
-            var properties = await _ctx.Properties.Find(filter).ToListAsync();
+            //var properties = await _ctx.Properties.Find(filter).ToListAsync();
+            //cambio para test
+            
+            //var properties = await _ctx.Properties.Find(filter).ToListAsync();
+
+            var properties = await _ctx.Properties.Find(filter).ToListAsync()
+                   ?? new List<Property>();
 
             var result = new List<PropertyDto>();
 
