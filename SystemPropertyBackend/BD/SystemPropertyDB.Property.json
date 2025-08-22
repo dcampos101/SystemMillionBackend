@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "689f780822d359924080b693"
+  },
+  "Name": "Apartamento Central Park",
+  "AddressP": "Cra 10 #20-30, Bogotá",
+  "Price": 350000000,
+  "CodeInternal": "CP-2025",
+  "Year": 2010,
+  "IdOwner": {
+    "$oid": "689f77d622d359924080b691"
+  }
+},
+{
+  "_id": {
+    "$oid": "689f780822d359924080b694"
+  },
+  "Name": "Casa Campestre",
+  "AddressP": "Km 15 vía Rionegro, Medellín",
+  "Price": 850000000,
+  "CodeInternal": "CC-2025",
+  "Year": 2015,
+  "IdOwner": {
+    "$oid": "689f77d622d359924080b692"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a4980d8fbd34d7737f9c27"
+  },
+  "Name": "Apartamento Rosales",
+  "AddressP": "Calle 85 #5-30, Bogotá",
+  "Price": 1200000000,
+  "CodeInternal": "PE-2023",
+  "Year": 2020,
+  "IdOwner": {
+    "$oid": "68a497ca8fbd34d7737f9c25"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a4980d8fbd34d7737f9c28"
+  },
+  "Name": "Casa Campestre 2 pisos",
+  "AddressP": "Km 24 #33-31, Barranquilla",
+  "Price": 560000000,
+  "CodeInternal": "BC-1025",
+  "Year": 2004,
+  "IdOwner": {
+    "$oid": "68a497ca8fbd34d7737f9c26"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a498ef8fbd34d7737f9c29"
+  },
+  "Name": "Duplex Chapinero",
+  "AddressP": "Carrera 7 #48-30, Bogotá",
+  "Price": 433500000,
+  "CodeInternal": "CH-2023",
+  "Year": 2020,
+  "IdOwner": {
+    "$oid": "68a497ca8fbd34d7737f9c25"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a498ef8fbd34d7737f9c2a"
+  },
+  "Name": "Lote Girardot",
+  "AddressP": "Km 24 #33-31, Girardot",
+  "Price": 75000000,
+  "CodeInternal": "GI-2022",
+  "Year": 2023,
+  "IdOwner": {
+    "$oid": "68a497ca8fbd34d7737f9c26"
+  }
+}]

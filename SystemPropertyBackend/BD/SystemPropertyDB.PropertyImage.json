@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "689f787422d359924080b699"
+  },
+  "IdProperty": {
+    "$oid": "689f780822d359924080b693"
+  },
+  "File": "https://www.alphainmobiliaria.com.sv/mira/assets/img/slide_005_new.jpg",
+  "Enabled": true
+},
+{
+  "_id": {
+    "$oid": "689f787422d359924080b69a"
+  },
+  "IdProperty": {
+    "$oid": "68a4980d8fbd34d7737f9c27"
+  },
+  "File": "https://images.ctfassets.net/8lc7xdlkm4kt/6bYolzLQSPgZawCDlHb9qr/ca35368f17fc3143fe969c9b074a73de/mint-apartamentos-barranquilla-sala.jpg?w=1366&h=768&q=60&fm=webp",
+  "Enabled": true
+},
+{
+  "_id": {
+    "$oid": "689f787422d359924080b69b"
+  },
+  "IdProperty": {
+    "$oid": "689f780822d359924080b694"
+  },
+  "File": "https://photos.encuentra24.com/t_or_fh_l/f_auto/v1/sv/31/10/96/21/31109621_b65ce1",
+  "Enabled": true
+},
+{
+  "_id": {
+    "$oid": "68a4ade58fbd34d7737f9c2e"
+  },
+  "IdProperty": {
+    "$oid": "68a4980d8fbd34d7737f9c28"
+  },
+  "File": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOThhZjU2LWRkMWItNzBlYi1iNmM0LTlmYTU1ZTI3NTY1Ni8wMTk4YWY2My1hMDI2LTcxZDgtYjk0YS1hMGQ5NjIzZGNiNDAuanBnIiwiYnJhbmQiOiJwcm9wZXJhdGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
+  "Enabled": true
+},
+{
+  "_id": {
+    "$oid": "68a4ade58fbd34d7737f9c2f"
+  },
+  "IdProperty": {
+    "$oid": "68a498ef8fbd34d7737f9c29"
+  },
+  "File": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzAxOTdmNDI1LTNiZWUtN2MyOS1iMDA3LTk2MGMzZjE2NDE4NS8wMTk3ZjQyOS1kZmI0LTcyMmEtYjYyNi0yOTljZDZiNmRkNTIuanBnIiwiYnJhbmQiOiJwcm9wZXJhdGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6NjUyLCJoZWlnaHQiOjQ4MCwiZml0IjoiY292ZXIifX19",
+  "Enabled": true
+},
+{
+  "_id": {
+    "$oid": "68a4ade58fbd34d7737f9c30"
+  },
+  "IdProperty": {
+    "$oid": "68a498ef8fbd34d7737f9c2a"
+  },
+  "File": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1wcm9qZWN0cy1hZG1pbi1pbWFnZXMiLCJrZXkiOiI2OTE3ZDAzYy02ZjdmLTRmNWEtOTk2Mi0wNDA2OGU3MzM3OTcvNjkxN2QwM2MtNmY3Zi00ZjVhLTk5NjItMDQwNjhlNzMzNzk3X2M2NjE3MmY2LTEyNjMtNDVjOC04YmIyLThhZGY4N2EwM2EzNC5qcGVnIiwiYnJhbmQiOiJwcm9wZXJhdGkiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6OTc0LCJoZWlnaHQiOjQ4MCwiZml0IjoiY292ZXIifX19",
+  "Enabled": true
+}]

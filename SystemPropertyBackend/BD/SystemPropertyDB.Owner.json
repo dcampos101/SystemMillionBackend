@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "689f77d622d359924080b691"
+  },
+  "Name": "Juan Pérez",
+  "AddressO": "Calle 123 #45-67, Bogotá",
+  "Photo": "https://example.com/owner1.jpg",
+  "Birthday": {
+    "$date": "1980-05-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689f77d622d359924080b692"
+  },
+  "Name": "María Gómez",
+  "AddressO": "Av. Siempre Viva 742, Medellín",
+  "Photo": "https://example.com/owner2.jpg",
+  "Birthday": {
+    "$date": "1975-09-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a497ca8fbd34d7737f9c25"
+  },
+  "Name": "Oscar Cruz",
+  "AddressO": "Carrera 25 #165-67, Bogotá",
+  "Photo": "https://example.com/owner1.jpg",
+  "Birthday": {
+    "$date": "1970-08-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a497ca8fbd34d7737f9c26"
+  },
+  "Name": "Julina Sanchez",
+  "AddressO": "Calle 126 #33-22, Barranquilla",
+  "Photo": "https://example.com/owner2.jpg",
+  "Birthday": {
+    "$date": "1990-01-10T00:00:00.000Z"
+  }
+}]
