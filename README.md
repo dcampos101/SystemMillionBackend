@@ -1,4 +1,20 @@
-Proyecto que contiene el backend para el sitio de Million Property.
+# PropertyRepository
+
+Repositorio que contiene la implementación de acceso a datos para entidades de tipo `Property`, utilizando MongoDB como base de datos, para el proyecto Million.
+## Tecnologías Utilizadas
+
+- C# 
+- MongoDB.Driver
+- MongoDB (Base de datos)
+- Visual Studio
+Configura la cadena de conexión a MongoDB en appsettings.json:
+{
+  "MongoDb": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "Database": "InmobiliariaDB"
+  }
+}
+
 En la carpeta BD, se encuentran los script iniciales para la base de datos en mongo y la informacion en JSON de las tablas utilizadas. 
 
 Cargue de servicio con swagger:
