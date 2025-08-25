@@ -37,10 +37,7 @@ namespace SystemPropertyBackend.Data
                 filter = Builders<Property>.Filter.And(filters);
 
             //var properties = await _ctx.Properties.Find(filter).ToListAsync();
-            //cambio para test
             
-            //var properties = await _ctx.Properties.Find(filter).ToListAsync();
-
             var properties = await _ctx.Properties.Find(filter).ToListAsync()
                    ?? new List<Property>();
 

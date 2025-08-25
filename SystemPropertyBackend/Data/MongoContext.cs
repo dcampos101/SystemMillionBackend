@@ -3,10 +3,6 @@ using SystemPropertyBackend.Models;
 
 namespace SystemPropertyBackend.Data
 {
-    //Conexión a la BD
-    //Centraliza la conexión a MongoDB.
-    //Permite cambiar el nombre de la base o la colección en un solo lugar.
-    //Se registra como Singleton (cliente Mongo es thread-safe y recomendado reutilizar).
     public class MongoContext : IMongoContext
     {
             public IMongoCollection<Property> Properties { get; }

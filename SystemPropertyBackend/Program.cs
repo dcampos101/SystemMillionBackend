@@ -34,7 +34,7 @@ builder.Services.AddSingleton<IMongoContext, MongoContext>();
 builder.Services.AddScoped<PropertyRepository>();
 //
 
-// Configura CORS para que el front (p. ej., Next.js) pueda llamar a la API.
+// Configura CORS para que el front.
 builder.Services.AddCors(opt =>
 {
     opt.AddDefaultPolicy(p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
@@ -61,9 +61,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-
-//
 
 // El endpoint recibe query params (name, address, minPrice, maxPrice, page, pageSize, sort, order).
 app.UseCors();
